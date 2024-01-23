@@ -1,0 +1,257 @@
+.container-1{
+    background-color: #1F2937;
+    display:flex; 
+    height: 100px;
+    gap:15rem;
+   
+
+}
+.container-2{
+    background-color: #1F2937;
+    display:flex; 
+    height: 350px; 
+    margin-bottom: 1.5rem;
+    align-content: center;
+    justify-content: space-around;
+   
+}
+
+
+
+.item{ 
+    display: flex;
+    margin-left:15rem;
+    flex:1;
+    justify-content: space-around;
+   
+   
+}
+.itemlink{
+    
+    display: flex;
+    padding-top: 2.0rem;
+   
+    gap: 1rem;
+    margin-right: 10rem;
+    margin-top: 1.2rem;
+    
+ 
+}
+
+.link1{
+margin-left: 4rem;
+
+
+}
+.link3{
+    margin-right: 5rem;
+    
+    }
+
+p{
+    color:#F9FAF8;
+    font-size:24px;
+
+
+}
+a{
+    font-size:18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.title{
+   
+    flex: 1;
+    font-size: 48px;
+    font-weight: 800;
+    margin-left:20rem;
+    margin-bottom: -1.2rem;
+    
+    }
+
+span{
+    
+    flex: 1;
+    margin-left:20rem;
+    margin-bottom: -1.2rem;
+    color:#e5e7eb;
+
+}
+
+.btn1{
+    margin-top: 0.2rem;
+    margin-left:20rem;
+    margin-bottom: -1.2rem;
+    padding: 0.2rem 1.2rem 0.2rem 1.2rem;
+    background-color: #3882f6;
+    border-radius: 0.4rem;
+    color:#e5e7eb;
+}
+.img1 .container-2  {
+   align-content: center  ;
+    padding-top: 2.0rem;
+   
+ 
+}
+.plain-gray-image{
+   
+    height: 14rem;
+    width: 32rem;
+    padding-top: 2.0rem;
+    margin-right: 13rem;
+ 
+}
+
+.container-3{
+   height: 350px; 
+   text-align: center;
+}
+.title2{
+    font-size: 36px;
+    font-weight: 800;
+    color:#1f2937;
+    flex:1;
+    align-content: center;
+
+
+}
+
+.image-panels{
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+
+}
+.img-1-panel,
+.img-2-panel,
+.img-3-panel,
+.img-4-panel {
+
+    height:8rem;
+    width:7rem;
+    border: solid #3882f6;
+    border-radius: 1rem;
+}
+
+.img-1,
+.img-2,
+.img-3,
+.img-4{
+    height:5rem;
+    width:3rem;
+    border-radius: 1rem;
+    
+}
+.photos-subtitles{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    gap:1.5rem;
+
+}
+
+.photo-subtext{
+    color:black;
+    text-align: center ;
+    font-size:1rem;
+
+    
+}
+
+.container-4{
+    height:450px;
+    background-color:#e5e7eb ;
+    display: flex;
+     justify-content:center;
+    
+}
+
+
+.quotation{
+    display: flex;
+    color: #1f2937;
+    font-size: 36px;
+    font-family: light italic;
+    padding-top: 7rem;
+      
+}
+
+.author{
+    margin-left:37rem;
+    font-weight: 900;
+}
+
+.container-5{
+    height:250px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.call-to-action{
+
+background-color: #3882f6;
+height: 5.8rem;
+width:43rem;
+border-radius: 0.3rem;
+margin-top: 6rem;
+display: flex;
+justify-content: space-between;
+
+
+}
+
+.call-to-action-text strong{
+    color:#e5e7eb;
+    font-size: 15px;
+    
+}
+
+.call-to-action-text  {
+    color:#e5e7eb;
+    font-size: 13px;
+    margin-left: 6rem;
+    margin-top: 1.7rem;
+   
+}
+
+.btn2{
+background-color: #3882f6;
+color: #e5e7eb;
+width: 6rem;
+height: 1.7rem;
+border-radius: 0.3rem;
+border: solid #e5e7eb;
+margin-right: 6rem;
+margin-top: 2rem;
+
+
+}
+
+.container-6{
+    height: 80px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.copy-right{
+    color:#e5e7eb;
+margin-top: 2rem;
+
+}
+@media screen and (max-width:700px) {
+    .container-1{
+        width:auto;
+        flex-direction: column;
+    }
+    .container-2{
+        width:auto;
+        flex-direction: column;
+    }
+    
+}
+
+/* PS: I used px and rem to delimitate sizes but it is not good practice, choose one type and stick to it till 
+you're finished */
